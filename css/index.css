@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* navigation bar */
+nav {
+    height: 100px;
+    background-color: #000000;
+    line-height: 100px;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-logo {
+    font-size: 40px;
+    float: left;
+    margin: 0;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-btn {
+    list-style: none;
+    margin: 0;
+}
+
+ul.nav-btn > li {
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* header */
+.hd {
+    position: relative;
+    height: 400px;
+    text-align: center;
+}
+
+.hd-title {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 200px;
+}
+
+.hd-content {
+    font-size: 25px;
+}
+
+/* section */
+.sec {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 318px;
+}
+
+.sec > button {
+    width: 300px;
+    height: 90px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* footer */
+.ft {
+    padding: 5px;
+    text-align: center;
+    background-color: #eb617c;
+    font-weight: bold;
+}
