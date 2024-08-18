@@ -92,8 +92,9 @@ ul.nav-btn > li {
     font-size: 35px;
 }
 
-.submit {
+.submit, .reset {
     margin-top: 50px;
+    margin-left: 10px;
     width: 100px;
     height: 60px;
     font-size: 20px;
